@@ -1,0 +1,56 @@
+body{
+    background-color:hsl(233, 47%, 7%) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,h2 {
+    color: white;
+}
+
+p {
+    color:hsla(0, 0%, 100%, 0.75) ;
+}
+
+.parent {
+   
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    padding: 55px;
+    z-index: 1;
+  
+  }
+
+  .card-container {
+    
+   display: flex;
+    width: 692px;
+    margin: 170px 190px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+  }
+    
+  .column {
+      padding: 40px;
+  }
+  
+
+  .attribution{
+      text-align: center;
+      color:white;
+    padding-bottom: 20px;
+  }
+
+  .card-media {
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-120deg) saturate(300%) contrast(0.8);
+  }
+
+ 
+
+  
